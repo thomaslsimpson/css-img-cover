@@ -1,0 +1,28 @@
+.full-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center; }
+
+.cover, .cover-color, .cover-white, .cover-black {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px; }
+
+.cover-color {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: white; }
+  .cover-color a {
+    color: #00bcf3; }
+
+.cover-white {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black; }
+
+.cover-black {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+/*# sourceMappingURL=cssimgcover.css.map */

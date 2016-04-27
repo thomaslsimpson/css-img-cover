@@ -1,0 +1,43 @@
+
+$cover-color-bg: rgba(255,255,255,0.75) !default; 
+$cover-color-fg: white !default;
+$cover-color-a:  rgb(0,188,243) !default;
+
+
+.full-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.cover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.cover-color {
+	@extend .cover;
+	background-color: $cover-color-bg;
+	color: $cover-color-fg;
+	a { color: $cover-color-a; }
+}
+
+
+.cover-white {
+	@extend .cover;
+	background-color: rgba(255,255,255,0.75);
+	color: black;
+}
+
+.cover-black {
+	@extend .cover;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+
+
